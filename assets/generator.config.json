@@ -1,0 +1,11 @@
+{
+  "templatePptFileName": "template.pptx",
+  "outputPptFileName": "KPI.pptx",
+  "kpiExcelFileConfig": {
+    "filename": "kpi.xlsx",
+    "worksheetIndexOrName": "Feuil1",
+    "placeholdersColumnIndex": 1,
+    "valuesColumnIndex": 2,
+    "dataRowStartIndex": 2
+  }
+}
