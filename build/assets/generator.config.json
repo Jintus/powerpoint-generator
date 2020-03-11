@@ -2,10 +2,10 @@
   "templatePptFileName": "template.pptx",
   "outputPptFileName": "KPI.pptx",
   "kpiExcelFileConfig": {
-    "filename": "kpi.xlsx",
-    "worksheetIndexOrName": "Feuil1",
-    "placeholdersColumnIndex": 1,
-    "valuesColumnIndex": 2,
-    "dataRowStartIndex": 2
+    "filename": "KPI-IT-V3.xlsx",
+    "worksheetIndexOrName": "KPI Primaires RG",
+    "placeholdersColumnIndex": 21,
+    "valuesColumnIndex": 6,
+    "dataRowStartIndex": 5
   }
 }

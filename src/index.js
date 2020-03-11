@@ -42,6 +42,7 @@ async function editPowerPoint(kpis, filename, outputFilename) {
         Object.values(pres.powerPointFactory.slides).forEach(slide => {
             let stringifiedSlideContent = JSON.stringify(slide.content['p:sld']);
             Object.entries(kpis).forEach(([kpi, value]) => {
+                value = value === undefined ? "" : value;
                 stringifiedSlideContent = stringifiedSlideContent.replace(new RegExp(kpi, 'g'), value);
             });
             slide.content['p:sld'] = JSON.parse(stringifiedSlideContent);
