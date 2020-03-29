@@ -7,5 +7,10 @@
     "placeholdersColumnIndex": 19,
     "valuesColumnIndex": 7,
     "dataRowStartIndex": 5
+  },
+  "images": {
+    "ascending": "growth-red.png",
+    "descending": "down-green.png",
+    "stable": "stable.png"
   }
 }
